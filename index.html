@@ -4,29 +4,35 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Marcelo das Carnes</title>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css">
+
+<link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
 <header>
   <div class="header-inner">
     <div class="brand">
-      <img src="images/logo.png" alt="Logo Marcelo das Carnes" class="brand-logo">
+      <img src="logo.png" alt="Logo Marcelo das Carnes" class="brand-logo">
       <div>
         <div class="brand-name">Marcelo das Carnes</div>
         <div class="brand-tag">Açougue tradicional</div>
       </div>
     </div>
+
     <button class="navtoggle" id="navToggle" aria-label="Abrir menu">☰</button>
+
     <nav class="mainnav" id="mainNav">
       <a href="#cardapio">Catálogo</a>
       <a href="#como-funciona">Como pedir</a>
       <a href="#sobre">Sobre</a>
       <a href="#contato">Contato</a>
     </nav>
+
     <button class="cart-btn" id="openCart">
       Pedido <span class="cart-count" id="cartCount">0</span>
     </button>
@@ -35,155 +41,341 @@
 
 <section class="hero">
   <div class="wrap hero-grid">
+
     <div>
       <div class="eyebrow-seal">★ Mais de 30 anos de tradição</div>
-      <h1>Carne de verdade,<br>direto do <span>açougue de bairro</span></h1>
-      <p class="lead">Bovinos, aves e suínos selecionados todos os dias. Monte seu pedido aqui e combine a retirada na loja ou a entrega em casa pelo WhatsApp.</p>
+
+      <h1>
+        Carne de verdade,<br>
+        direto do <span>açougue de bairro</span>
+      </h1>
+
+      <p class="lead">
+        Bovinos, aves e suínos selecionados todos os dias.
+        Monte seu pedido aqui e combine a retirada na loja
+        ou a entrega em casa pelo WhatsApp.
+      </p>
+
       <div class="hero-actions">
         <a href="#cardapio" class="btn btn-primary">Ver cardápio</a>
         <a href="#contato" class="btn btn-outline">Como chegar</a>
       </div>
     </div>
+
     <div class="hero-badge-wrap">
-      <img src="images/logo.png" alt="Logo Marcelo das Carnes" class="hero-logo">
+      <img src="logo.png" alt="Logo Marcelo das Carnes" class="hero-logo">
     </div>
+
   </div>
 </section>
 
 <section class="how-strip" id="como-funciona">
   <div class="wrap">
+
     <div class="section-head">
       <div class="kicker">Como funciona</div>
       <h2>Peça em três passos</h2>
     </div>
+
     <div class="how-grid">
+
       <div class="how-card">
         <div class="step-name">PASSO 1</div>
         <h3>Monte seu pedido</h3>
-        <p>Escolha os cortes de bovino, ave ou suíno que quiser e adicione à sua lista.</p>
+        <p>
+          Escolha os cortes de bovino, ave ou suíno que quiser
+          e adicione à sua lista.
+        </p>
       </div>
+
       <div class="how-card">
         <div class="step-name">PASSO 2</div>
         <h3>Escolha retirada ou entrega</h3>
-        <p>Você decide se busca na loja ou se prefere receber em casa.</p>
+        <p>
+          Você decide se busca na loja ou se prefere receber em casa.
+        </p>
       </div>
+
       <div class="how-card">
         <div class="step-name">PASSO 3</div>
         <h3>Confirme pelo WhatsApp</h3>
-        <p>Enviamos sua lista pronta e o açougue confirma o valor final pelo peso na hora.</p>
+        <p>
+          Enviamos sua lista pronta e o açougue confirma o valor
+          final pelo peso na hora.
+        </p>
       </div>
+
     </div>
   </div>
 </section>
 
 <section id="cardapio">
   <div class="wrap">
+
     <div class="section-head">
       <div class="kicker">Catálogo</div>
       <h2>Nossos cortes</h2>
-      <p>Preços por quilo, salvo indicação diferente. O valor final é confirmado pelo peso real na retirada ou entrega.</p>
+      <p>
+        Preços por quilo, salvo indicação diferente.
+        O valor final é confirmado pelo peso real na retirada ou entrega.
+      </p>
     </div>
+
     <div class="tabs" id="tabs">
       <button class="tab active" data-cat="bovinos">Bovinos</button>
       <button class="tab" data-cat="aves">Aves</button>
       <button class="tab" data-cat="suinos">Suínos</button>
     </div>
+
     <div class="product-grid" id="productGrid"></div>
+
   </div>
 </section>
 
 <section class="about" id="sobre">
   <div class="wrap about-grid">
+
     <div>
-      <div class="kicker" style="color: var(--gold-light);">Nossa história</div>
-      <h2>Três décadas cuidando da carne da sua mesa</h2>
-      <p>O Marcelo das Carnes nasceu pequeno, no bairro, com o compromisso de vender apenas o que a própria família comeria. Trinta anos depois, esse compromisso continua sendo a única regra da casa.</p>
+      <div class="kicker" style="color: var(--gold-light);">
+        Nossa história
+      </div>
+
+      <h2>
+        Três décadas cuidando da carne da sua mesa
+      </h2>
+
+      <p>
+        O Marcelo das Carnes nasceu pequeno, no bairro,
+        com o compromisso de vender apenas o que a própria
+        família comeria. Trinta anos depois, esse compromisso
+        continua sendo a única regra da casa.
+      </p>
+
       <div class="about-stats">
-        <div class="about-stat"><div class="num">30+</div><div class="label">Anos de história</div></div>
-        <div class="about-stat"><div class="num">20+</div><div class="label">Categorias de corte</div></div>
-        <div class="about-stat"><div class="num">100%</div><div class="label">Seleção diária</div></div>
+
+        <div class="about-stat">
+          <div class="num">30+</div>
+          <div class="label">Anos de história</div>
+        </div>
+
+        <div class="about-stat">
+          <div class="num">20+</div>
+          <div class="label">Categorias de corte</div>
+        </div>
+
+        <div class="about-stat">
+          <div class="num">100%</div>
+          <div class="label">Seleção diária</div>
+        </div>
+
       </div>
     </div>
+
     <div class="about-panel">
       <ul>
-        <li><span class="tick">✓</span> Cortes preparados na hora, sob medida</li>
-        <li><span class="tick">✓</span> Bovinos, aves e suínos selecionados diariamente</li>
-        <li><span class="tick">✓</span> Retirada na loja ou entrega no bairro</li>
-        <li><span class="tick">✓</span> Atendimento direto pelo WhatsApp</li>
+        <li>
+          <span class="tick">✓</span>
+          Cortes preparados na hora, sob medida
+        </li>
+
+        <li>
+          <span class="tick">✓</span>
+          Bovinos, aves e suínos selecionados diariamente
+        </li>
+
+        <li>
+          <span class="tick">✓</span>
+          Retirada na loja ou entrega no bairro
+        </li>
+
+        <li>
+          <span class="tick">✓</span>
+          Atendimento direto pelo WhatsApp
+        </li>
       </ul>
     </div>
+
   </div>
 </section>
 
 <section id="contato">
   <div class="wrap contact-grid">
+
     <div>
+
       <div class="section-head" style="margin-bottom: 24px;">
         <div class="kicker">Contato</div>
         <h2>Venha até a loja ou nos chame</h2>
       </div>
+
       <ul class="info-list">
+
         <li>
           <div class="info-icon">📍</div>
-          <div><div class="label">Endereço</div><div class="value">Rua Boarnerges Jacó, 865 — Centro, Barreira/Ce </div></div>
+          <div>
+            <div class="label">Endereço</div>
+            <div class="value">
+              Rua Boarnerges Jacó, 865 — Centro, Barreira/Ce
+            </div>
+          </div>
         </li>
+
         <li>
           <div class="info-icon">🕒</div>
-          <div><div class="label">Horário</div><div class="value">Seg a sex, 6h às 17h ·  Sáb 4h as 17h , Dom, 5h às 12h</div></div>
+          <div>
+            <div class="label">Horário</div>
+            <div class="value">
+              Seg a sex, 6h às 17h · Sáb 4h as 17h,
+              Dom, 5h às 12h
+            </div>
+          </div>
         </li>
+
         <li>
           <div class="info-icon">📱</div>
-          <div><div class="label">WhatsApp</div><div class="value">(85) 99143-2058</div></div>
+          <div>
+            <div class="label">WhatsApp</div>
+            <div class="value">(85) 99143-2058</div>
+          </div>
         </li>
+
       </ul>
-      <a class="btn btn-whatsapp-contact" href="https://wa.me/5585991432058?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20falar%20com%20voc%C3%AAs!" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+
+      <a
+        class="btn btn-whatsapp-contact"
+        href="https://wa.me/5585991432058?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20falar%20com%20voc%C3%AAs!"
+        target="_blank"
+        rel="noopener"
+      >
+        Chamar no WhatsApp
+      </a>
+
     </div>
+
     <div class="map-wrap">
+
       <div class="map-card">
-        <svg class="map-pin" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M32 6c-11 0-19 8.5-19 19 0 14 19 33 19 33s19-19 19-33c0-10.5-8-19-19-19z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
-          <circle cx="32" cy="25" r="7" stroke="currentColor" stroke-width="2.5"/>
+
+        <svg
+          class="map-pin"
+          viewBox="0 0 64 64"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M32 6c-11 0-19 8.5-19 19 0 14 19 33 19 33s19-19 19-33c0-10.5-8-19-19-19z"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linejoin="round"
+          />
+
+          <circle
+            cx="32"
+            cy="25"
+            r="7"
+            stroke="currentColor"
+            stroke-width="2.5"
+          />
         </svg>
-        <div class="map-card-address">Rua Boarnerges Jacó, 865<br>Centro, Barreira/CE</div>
+
+        <div class="map-card-address">
+          Rua Boarnerges Jacó, 865<br>
+          Centro, Barreira/CE
+        </div>
+
       </div>
-      <a class="btn btn-maps" href="https://www.google.com/maps/search/?api=1&query=Rua%20Boarnerges%20Jac%C3%B3%2C%20865%2C%20Centro%2C%20Barreira%2C%20CE" target="_blank" rel="noopener">Abrir no Google Maps</a>
+
+      <a
+        class="btn btn-maps"
+        href="https://www.google.com/maps/search/?api=1&query=Rua%20Boarnerges%20Jac%C3%B3%2C%20865%2C%20Centro%2C%20Barreira%2C%20CE"
+        target="_blank"
+        rel="noopener"
+      >
+        Abrir no Google Maps
+      </a>
+
     </div>
+
   </div>
 </section>
 
 <footer>
-  <div class="wrap"><strong>Marcelo das Carnes</strong> — mais de 30 anos vendendo produtos de qualidade.<br>Protótipo de site — conteúdo e imagens de exemplo.</div>
+  <div class="wrap">
+    <strong>Marcelo das Carnes</strong>
+    — mais de 30 anos vendendo produtos de qualidade.
+    <br>
+    Protótipo de site — conteúdo e imagens de exemplo.
+  </div>
 </footer>
 
 <div class="overlay" id="overlay"></div>
+
 <aside class="drawer" id="cartDrawer" aria-label="Seu pedido">
+
   <div class="drawer-head">
     <h3>Seu pedido</h3>
     <button class="drawer-close" id="closeCart">×</button>
   </div>
+
   <div class="drawer-body" id="drawerBody"></div>
+
   <div class="drawer-foot">
+
     <div class="fulfil-toggle" id="fulfilToggle">
-      <button data-mode="retirada" class="active">Retirada na loja</button>
-      <button data-mode="entrega">Entrega</button>
+      <button data-mode="retirada" class="active">
+        Retirada na loja
+      </button>
+
+      <button data-mode="entrega">
+        Entrega
+      </button>
     </div>
-    <div class="drawer-total"><span>Total estimado</span><span id="cartTotal">R$ 0,00</span></div>
-    <button class="whatsapp-btn" id="checkoutBtn" disabled>Enviar pedido pelo WhatsApp</button>
-    <div class="drawer-note">O valor final é confirmado pelo peso real na hora da retirada ou entrega.</div>
+
+    <div class="drawer-total">
+      <span>Total estimado</span>
+      <span id="cartTotal">R$ 0,00</span>
+    </div>
+
+    <button
+      class="whatsapp-btn"
+      id="checkoutBtn"
+      disabled
+    >
+      Enviar pedido pelo WhatsApp
+    </button>
+
+    <div class="drawer-note">
+      O valor final é confirmado pelo peso real na hora da retirada ou entrega.
+    </div>
+
   </div>
+
 </aside>
 
 <div class="overlay" id="variantOverlay"></div>
-<div class="variant-modal" id="variantModal" role="dialog" aria-label="Escolha da preparação">
+
+<div
+  class="variant-modal"
+  id="variantModal"
+  role="dialog"
+  aria-label="Escolha da preparação"
+>
+
   <div class="variant-modal-head">
     <h3 id="variantTitle">Como você quer?</h3>
     <button class="drawer-close" id="variantClose">×</button>
   </div>
-  <div class="variant-options" id="variantOptions"></div>
+
+  <div
+    class="variant-options"
+    id="variantOptions"
+  ></div>
+
 </div>
 
 <div class="toast" id="toast"></div>
 
-<script src="js/script.js"></script>
+<script src="script.js"></script>
+
 </body>
 </html>
