@@ -9,25 +9,7 @@
   --line: rgba(28,23,18,0.14);
   --shadow: rgba(28,23,18,0.25);
 }
-:root:not([data-theme="light"]) {
-  /* keep light as base; dark mode below overrides */
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --cream: #241C15;
-    --white: #2C221A;
-    --black: #F4EBD8;
-    --line: rgba(244,235,216,0.16);
-    --shadow: rgba(0,0,0,0.5);
-  }
-}
-:root[data-theme="dark"] {
-  --cream: #241C15;
-  --white: #2C221A;
-  --black: #F4EBD8;
-  --line: rgba(244,235,216,0.16);
-  --shadow: rgba(0,0,0,0.5);
-}
+
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
