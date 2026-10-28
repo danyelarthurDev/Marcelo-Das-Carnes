@@ -19,7 +19,7 @@
       { id: 'b17', name: 'Panelada Bovina', desc: 'Prato tradicional, pronto para o tempero da casa.', price: 21.99, unit: 'kg' }
     ],
     aves: [
-      { id: 'a1', name: 'Frango Abatido', desc: 'Frango abatido, disponível inteiro ou cortado em pedaços, como preferir.', price: 8.99, unit: 'kg', variants: ['Inteiro', 'Cortado em pedaços'] }
+      { id: 'a1', name: 'Frango Abatido', desc: 'Frango abatido, disponível inteiro ou cortado em pedaços, como preferir.', price: 9.99, unit: 'kg', variants: ['Inteiro', 'Cortado em pedaços'] }
     ],
     suinos: [
       { id: 's1', name: 'Coxão Suíno', desc: 'Corte macio, ótimo para assados e bifes.', price: 21.99, unit: 'kg' },
